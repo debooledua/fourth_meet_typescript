@@ -1,4 +1,3 @@
-import { listeners } from 'node:process';
 import promptSync from 'prompt-sync';
 import bands from './bandsDiff.json';
 const prompt = promptSync();  
