@@ -47,7 +47,7 @@ bands.forEach((band: MusicBand) => {
   });
 });
 musicTime.forEach(({ bandName, track }) => {
-  console.log(`${bandName} - ${track.title} X ${Math.trunc(track.durationInSeconds / 60)} У ${track.durationInSeconds % 60}`);
+  console.log(`${bandName} ${track.title} X ${Math.trunc(track.durationInSeconds / 60)} Y ${track.durationInSeconds % 60}`);
 });
 // 3
 const countryMembers: { [country: string]: BandMember[] } = {};
